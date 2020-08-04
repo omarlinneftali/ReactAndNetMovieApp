@@ -1,0 +1,9 @@
+Dado que las dos pruebas trataban con la misma aplicación, decidí integrar las dos en una sola, con react en el front-end y .Net en el backend con Sql Server. De cualquier forma, podría también haber hecho el backend en nodeJs sin ningún problema, pero dado que eran dos pruebas, una para probar los conocimientos de React y otra de .Net, decidí hacer una que integre las dos tecnologías.
+
+El front-end está en la carpeta ReactAplication y la api en MoviesApiDoNet.
+
+Para el front-end cambiar la ruta de la api en el archivo pruebas\ReactAplication\vidly\src\config.json por la del servidor local.
+
+Para el backend ejecutar el último migration realizado, y cambiar el servidor en el conectionString o generar la base de datos con el mismo nombre.
+
+
